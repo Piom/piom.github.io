@@ -1,8 +1,7 @@
 plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: false
-  collections: true
+  - jekyll-theme-minimal
+title: Software Developer
+description: Aleksandr Korkin's CV
 include:
   - CONTRIBUTING.md
   - README.md
