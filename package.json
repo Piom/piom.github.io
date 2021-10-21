@@ -73,6 +73,6 @@
     ]
   },
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://piom:$PA_TOKEN@github.com/piom/piom.github.io.git\""
+    "deploy": "gatsby build && gh-pages -d public -b gatsby -r \"https://piom:$PA_TOKEN@github.com/piom/piom.github.io.git\""
   }
 }
